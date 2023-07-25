@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+.body {
+    background-color: #000;
+}
+.container-fluid {
+    background-color: #000;
+}
+header {
+    height: 100vh;
+    background-image: url(img/Earth-BG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header .container{
+    max-width: 1000px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: transparent;
+
+}
+.intro {
+    position: absolute;
+    z-index: 1;
+}
+header .container h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+header .container h1 span {
+    color: #0d6efd;
+}
+header .container p {
+    font-size: 18px;
+}
+header .container a {
+    width: 200px;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header .container a:hover {
+    background-color: #fff;
+    color: #0d6efd;
+}
+.navbar  {
+    z-index: 99;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    
+}
+.navbar-nav .nav-item .active {
+    color: #0d6efd;
+}
+.dropdown .dropdown-menu, .dropdown .dropdown-menu a {
+    list-style-type: none;
+    background-color: #fff;
+    text-align: start;
+}
+@media screen and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ z-index: 99;   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block;  }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; z-index: 99; }
+ 
+}
+.Solar-System {
+    height: 100vh;
+    background-color: #000;
+}
+.Solar-System .left fieldset{
+    border: 1px solid #fff;
+}
